@@ -1,0 +1,2225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <nav class="pt-5 sub-type-nav">
+    <div class="nav nav-tabs sub-type-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-SUBSCRIPTION-tab" data-bs-toggle="tab" data-bs-target="#nav-SUBSCRIPTION" type="button" role="tab" aria-controls="nav-SUBSCRIPTION" aria-selected="true">SUBSCRIPTION</button>
+      <button class="nav-link" id="nav-PERPETUAL-tab" data-bs-toggle="tab" data-bs-target="#nav-PERPETUAL" type="button" role="tab" aria-controls="nav-PERPETUAL" aria-selected="false">PERPETUAL</button>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-SUBSCRIPTION" role="tabpanel" aria-labelledby="nav-SUBSCRIPTION-tab">
+      <ul class="nav nav-pills sub_tabs d-flex justify-content-center px-1 pt-3 " id="pills-tab" role="tablist">
+        <li class="nav-item w-50" role="presentation">
+          <button class="nav-link active w-100" id="pills-Subscription-Workloads-tab " data-bs-toggle="pill" data-bs-target="#pills-Subscription-Workloads" type="button" role="tab" aria-controls="pills-Subscription-Workloads" aria-selected="true">for All workloads</button>
+        </li>
+        <li class="nav-item w-50" role="presentation">
+          <button class="nav-link w-100" id="pills-Subscription-Microsoft-tab" data-bs-toggle="pill" data-bs-target="#pills-Subscription-Microsoft" type="button" role="tab" aria-controls="pills-Subscription-Microsoft" aria-selected="false">for Microsoft 365</button>
+        </li>
+        <li class="nav-item w-100" role="presentation">
+          <button class="nav-link w-100" id="pills-Subscription-VMware-tab " data-bs-toggle="pill" data-bs-target="#pills-Subscription-VMware" type="button" role="tab" aria-controls="pills-Subscription-VMware" aria-selected="false">Monitoring for VMware</button>
+        </li>
+        <li class="nav-item w-100" role="presentation">
+          <button class="nav-link w-100 " id="pills-Subscription-Replication-tab" data-bs-toggle="pill" data-bs-target="#pills-Subscription-Replication" type="button" role="tab" aria-controls="pills-Subscription-Replication" aria-selected="false">Real-Time Replication</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active Subscription-Workloads" id="pills-Subscription-Workloads" role="tabpanel" aria-labelledby="pills-Subscription-Workloads-tab">
+          <div>
+            <div class="d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-headset pe-2 fs-2" style="color: #0d79fa;"></i>
+              <p class="mb-0">Free 24/7 support included</p>
+            </div>
+            <div class="container px-4  mt-5">
+              <div class="row">
+                <div class="pricing_table col-12 col-lg-4">
+                  <div class="pricing_table_cont position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">PRO ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body">
+                      <div class="d-flex flex-column align-items-center">
+                        <span class="mb-0">start at</span>
+                        <h1 class="mb-0 fw-bold">$1.95</h1>
+                        <p class="mb-0 fs-5 fw-normal">Per workload / month</p>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 pricing_table_tabs d-flex">
+                            <button class="btn w-50 text-center py-1">
+                              1-year 
+                              <br>
+                              subscription
+                            </button>
+                            <button class="btn w-50 active text-center py-1">Save 20% with a <br> 3-years subscription</button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE FEATURE SET</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">BACKUP</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Virtual</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Cloud</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Physical</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>NAS / File shares</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">FLEXIBLE RECOVERY</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Instant granular recovery</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Instant VM boot</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Cross-platform recoveries</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">REPLICATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Virtual</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Cloud</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">ANTI-RANSOMWARE</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Immutable storage</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center">
+                        <span class="mb-0">start at</span>
+                        <h1 class="mb-0 fw-bold">$2.60</h1>
+                        <p class="mb-0 fs-5 fw-normal">Per workload / month</p>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 pricing_table_tabs d-flex">
+                            <button class="btn w-50 text-center py-1">
+                              1-year 
+                              <br>
+                              subscription
+                            </button>
+                            <button class="btn w-50 active text-center py-1">Save 20% with a <br> 3-years subscription</button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">PRO ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">+ MORE BACKUP TARGETS</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Backup to Cloud</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Native Backup to Tape</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Deduplication Appliance Integration</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">+ SITE RECOVERY</h5>
+                        <h5 class="features_header pb-2 pt-3">+ SIMPLIFIED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Policy-Based Data Protection</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Calendar</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Microsoft Active Directory Integration</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Two-Factor Authentication</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">+ BAAS / DRAAS</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Multi-tenant mode</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE PLUS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center py-4 mt-3">
+                        <h2 class="mb-0 fw-bold text-center">Full feature set to meet all your needs</h2>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 ENTERPRISE_ESSENTIALS_btn d-flex">
+                            <button class="btn text-center py-3 w-100">
+                              CONTACT SALES
+                            </button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">ENTERPRISE ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">+ MORE INTEGRATIONS</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Backup from Storage Snapshots</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Oracle Backup</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">+ EXTENDED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>HTTP API Integration Kit</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Role-Based Access Control</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade Subscription-Workloads" id="pills-Subscription-Microsoft" role="tabpanel" aria-labelledby="pills-Subscription-Microsoft-tab">
+          <div>
+            <div class="d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-headset pe-2 fs-2" style="color: #0d79fa;"></i>
+              <p class="mb-0">Free 24/7 support included</p>
+            </div>
+            <div class="container px-4 mt-5">
+              <div class="row align-items-center justify-content-center">
+                <div class="pricing_table col-12 col-lg-8 ">
+                  <div class="pricing_table_cont position-relative">
+                    <div class="pricing_table_body">
+                      <div class="row">
+                        <div class="col-12 col-lg-6">
+                          <div class="d-flex flex-column align-items-center">
+                            <h1 class="mb-0 fw-bold">$0.80</h1>
+                            <p class="mb-0 fs-5 fw-normal">Per user / month</p>
+                          </div>
+                          <div class="mt-5 w-100 d-flex justify-content-center align-items-center">
+                            <div class="w-75 pricing_table_tabs d-flex">
+                                <button class="btn w-50 text-center py-1">
+                                  1-year 
+                                  <br>
+                                  subscription
+                                </button>
+                                <button class="btn w-50 active text-center py-1">Save 20% with a <br> 3-years subscription</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                          <div class="features mt-4">
+                            <h5 class="features_header pb-2 ">BACKUP FOR</h5>
+                            <ul class="p-0 list-unstyled ">
+                              <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Exchange Online</li>
+                              <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>OneDrive for Business</li>
+                              <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>SharePoint Online</li>
+                              <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Microsoft Teams</li>
+                            </ul>
+                          </div>
+                          <div class="see_all_features_btn mb-lg-5">
+                            <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade Subscription-Workloads" id="pills-Subscription-VMware" role="tabpanel" aria-labelledby="pills-Subscription-VMware-tab">
+          <div>
+            <div class="d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-headset pe-2 fs-2" style="color: #0d79fa;"></i>
+              <p class="mb-0">Free 24/7 support included</p>
+            </div>
+            <div class="container px-4  mt-5">
+              <div class="row">
+                <div class="pricing_table col-12 col-lg-4">
+                  <div class="pricing_table_cont position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">PRO ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body">
+                      <div class="d-flex flex-column align-items-center">
+                        <span class="mb-0">start at</span>
+                        <h1 class="mb-0 fw-bold">$0.90</h1>
+                        <p class="mb-0 fs-5 fw-normal">Per workload / month</p>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 pricing_table_tabs d-flex">
+                            <button class="btn w-50 text-center py-1">
+                              1-year 
+                              <br>
+                              subscription
+                            </button>
+                            <button class="btn w-50 active text-center py-1">Save 20% with a <br> 3-years subscription</button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE FEATURE SET</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">PERFORMANCE MONITORING</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>CPU</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>RAM</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Disk usage</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">BUILT-IN LIVE CHAT</h5>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center">
+                        <span class="mb-0">start at</span>
+                        <h1 class="mb-0 fw-bold">$1.15</h1>
+                        <p class="mb-0 fs-5 fw-normal">Per workload / month</p>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 pricing_table_tabs d-flex">
+                            <button class="btn w-50 text-center py-1">
+                              1-year 
+                              <br>
+                              subscription
+                            </button>
+                            <button class="btn w-50 active text-center py-1">Save 20% with a <br> 3-years subscription</button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">PRO ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">+ SIMPLIFIED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Two-Factor Authentication</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Microsoft Active Directory Integration</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">+ MULTI-TENANT DEPLOYMENT</h5>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE PLUS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center py-4 mt-3">
+                        <h2 class="mb-0 fw-bold text-center">Full feature set to meet all your needs</h2>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 ENTERPRISE_ESSENTIALS_btn d-flex">
+                            <button class="btn text-center py-3 w-100">
+                              CONTACT SALES
+                            </button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">ENTERPRISE ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">+ EXTENDED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>HTTP API Integration Kit</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Role-Based Access Control</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade Subscription-Workloads" id="pills-Subscription-Replication" role="tabpanel" aria-labelledby="pills-Subscription-Replication-tab">
+          <div>
+            <div class="d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-headset pe-2 fs-2" style="color: #0d79fa;"></i>
+              <p class="mb-0">Free 24/7 support included</p>
+            </div>
+            <div class="container px-4  mt-5">
+              <div class="row">
+                <div class="pricing_table col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold text-muted">PRO ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body d-flex justify-content-center align-items-center text-center">
+                      <h3 class="text-muted text-center">Not available in Pro Essentials</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center">
+                        <span class="mb-0">start at</span>
+                        <h1 class="mb-0 fw-bold">$2.35</h1>
+                        <p class="mb-0 fs-5 fw-normal">Per workload / month</p>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 pricing_table_tabs d-flex">
+                            <button class="btn w-50 text-center py-1">
+                              1-year 
+                              <br>
+                              subscription
+                            </button>
+                            <button class="btn w-50 active text-center py-1">Save 20% with a <br> 3-years subscription</button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">PRO ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">REAL-TIME REPLICATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>VMware vSphere</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">SIMPLIFIED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Two-Factor Authentication</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Microsoft Active Directory Integration</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">MULTI-TENANT DEPLOYMENT</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Multi-tenant mode</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE PLUS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center py-4 mt-3">
+                        <h2 class="mb-0 fw-bold text-center">Full feature set to meet all your needs</h2>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 ENTERPRISE_ESSENTIALS_btn d-flex">
+                            <button class="btn text-center py-3 w-100">
+                              CONTACT SALES
+                            </button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">ENTERPRISE ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">+ EXTENDED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>HTTP API Integration Kit</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Role-Based Access Control</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="tab-pane fade" id="nav-PERPETUAL" role="tabpanel" aria-labelledby="nav-PERPETUAL-tab">
+      <ul class="nav nav-pills sub_tabs d-flex justify-content-center px-1 pt-3 " id="pills-tab" role="tablist">
+        <li class="nav-item w-50" role="presentation">
+          <button class="nav-link active w-100" id="pills-PERPETUAL-Virtual-tab " data-bs-toggle="pill" data-bs-target="#pills-PERPETUAL-Virtual" type="button" role="tab" aria-controls="pills-PERPETUAL-Virtual" aria-selected="true">for Virtual</button>
+        </li>
+        <li class="nav-item w-50" role="presentation">
+          <button class="nav-link w-100" id="pills-PERPETUAL-Servers-tab" data-bs-toggle="pill" data-bs-target="#pills-PERPETUAL-Servers" type="button" role="tab" aria-controls="pills-PERPETUAL-Servers" aria-selected="false">for Servers</button>
+        </li>
+        <li class="nav-item w-100" role="presentation">
+          <button class="nav-link w-100" id="pills-PERPETUAL-Workstations-tab " data-bs-toggle="pill" data-bs-target="#pills-PERPETUAL-Workstations" type="button" role="tab" aria-controls="pills-PERPETUAL-Workstations" aria-selected="false">for Workstations</button>
+        </li>
+        <li class="nav-item w-100" role="presentation">
+          <button class="nav-link w-100" id="pills-PERPETUAL-NAS-tab " data-bs-toggle="pill" data-bs-target="#pills-PERPETUAL-NAS" type="button" role="tab" aria-controls="pills-PERPETUAL-NAS" aria-selected="false">for NAS / file shares</button>
+        </li>
+        <li class="nav-item w-100" role="presentation">
+          <button class="nav-link w-100" id="pills-PERPETUAL-Oracle-tab " data-bs-toggle="pill" data-bs-target="#pills-PERPETUAL-Oracle" type="button" role="tab" aria-controls="pills-PERPETUAL-Oracle" aria-selected="false">for Oracle DB</button>
+        </li>
+        <li class="nav-item w-100" role="presentation">
+          <button class="nav-link w-100" id="pills-PERPETUAL-VMware-tab " data-bs-toggle="pill" data-bs-target="#pills-PERPETUAL-VMware" type="button" role="tab" aria-controls="pills-PERPETUAL-VMware" aria-selected="false">Monitoring for VMware</button>
+        </li>
+        <li class="nav-item w-100" role="presentation">
+          <button class="nav-link w-100 " id="pills-PERPETUAL-Replication-tab" data-bs-toggle="pill" data-bs-target="#pills-PERPETUAL-Replication" type="button" role="tab" aria-controls="pills-PERPETUAL-Replication" aria-selected="false">Real-Time Replication</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active Subscription-Workloads" id="pills-PERPETUAL-Virtual" role="tabpanel" aria-labelledby="pills-PERPETUAL-Virtual-tab">
+          <div>
+            <div class="d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-headset pe-2 fs-2" style="color: #0d79fa;"></i>
+              <p class="mb-0">Free 24/7 support included</p>
+            </div>
+            <div class="container px-4  mt-5">
+              <div class="row">
+                <div class="pricing_table col-12 col-lg-4">
+                  <div class="pricing_table_cont position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">PRO ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body">
+                      <div class="d-flex flex-column align-items-center">
+                        <span class="mb-0">start at</span>
+                        <h1 class="mb-0 fw-bold">$229</h1>
+                        <p class="mb-0 fs-5 fw-normal">per socket</p>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE FEATURE SET</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">BACKUP</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>VMware vSphere</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Microsoft Hyper-V</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Nutanix AHV</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">FLEXIBLE RECOVERY</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Instant granular recovery</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Instant VM boot</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Cross-platform recoveries</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Physical-to-virtual</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">ANTI-RANSOMWARE</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Immutable storage</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">REPLICATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>VMware vSphere</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Microsoft Hyper-V</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center">
+                        <span class="mb-0">start at</span>
+                        <h1 class="mb-0 fw-bold">$329</h1>
+                        <p class="mb-0 fs-5 fw-normal">per socket</p>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">PRO ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">+ MORE BACKUP CAPABILITIES</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Backup to Cloud</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Native Backup to Tape</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Deduplication Appliance Integration</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">+ SITE RECOVERY</h5>
+                        <h5 class="features_header pb-2 pt-3">+ SIMPLIFIED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Policy-Based Data Protection</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Calendar</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Two-Factor Authentication</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Microsoft Active Directory Integration</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">+ BAAS / DRAAS</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Multi-tenant mode</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE PLUS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center py-4 mt-3">
+                        <h2 class="mb-0 fw-bold text-center">Full feature set to meet all your needs</h2>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 ENTERPRISE_ESSENTIALS_btn d-flex">
+                            <button class="btn text-center py-3 w-100">
+                              CONTACT SALES
+                            </button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">ENTERPRISE ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">+ MORE INTEGRATIONS</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Backup from Storage Snapshots</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">+ EXTENDED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>HTTP API Integration Kit</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Role-Based Access Control</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade Subscription-Workloads" id="pills-PERPETUAL-Servers" role="tabpanel" aria-labelledby="pills-PERPETUAL-Servers-tab">
+          <div>
+            <div class="d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-headset pe-2 fs-2" style="color: #0d79fa;"></i>
+              <p class="mb-0">Free 24/7 support included</p>
+            </div>
+            <div class="container px-4  mt-5">
+              <div class="row">
+                <div class="pricing_table col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">PRO ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body">
+                      <div class="d-flex flex-column align-items-center">
+                        <span class="mb-0">start at</span>
+                        <h1 class="mb-0 fw-bold">$58</h1>
+                        <p class="mb-0 fs-5 fw-normal">per server</p>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE FEATURE SET</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">BACKUP</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Windows</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Linux</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">FLEXIBLE RECOVERY</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Instant granular recovery</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Instant P2V</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">ANTI-RANSOMWARE</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Immutable storage</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center">
+                        <span class="mb-0">start at</span>
+                        <h1 class="mb-0 fw-bold">$76</h1>
+                        <p class="mb-0 fs-5 fw-normal">per server</p>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">PRO ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">+ MORE BACKUP CAPABILITIES</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Backup to Cloud</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Native Backup to Tape</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Deduplication Appliance Integration</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">+ SITE RECOVERY</h5>
+                        <h5 class="features_header pb-2 pt-3">+ SIMPLIFIED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Policy-Based Data Protection</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Calendar</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Two-Factor Authentication</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Microsoft Active Directory Integration</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE PLUS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center py-4 mt-3">
+                        <h2 class="mb-0 fw-bold text-center">Full feature set to meet all your needs</h2>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 ENTERPRISE_ESSENTIALS_btn d-flex">
+                            <button class="btn text-center py-3 w-100">
+                              CONTACT SALES
+                            </button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">ENTERPRISE ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 pt-3">+ EXTENDED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>HTTP API Integration Kit</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Role-Based Access Control</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade Subscription-Workloads" id="pills-PERPETUAL-Workstations" role="tabpanel" aria-labelledby="pills-PERPETUAL-Workstations-tab">
+          <div>
+            <div class="d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-headset pe-2 fs-2" style="color: #0d79fa;"></i>
+              <p class="mb-0">Free 24/7 support included</p>
+            </div>
+            <div class="container px-4  mt-5">
+              <div class="row">
+                <div class="pricing_table col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">PRO ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body">
+                      <div class="d-flex flex-column align-items-center">
+                        <span class="mb-0">start at</span>
+                        <h1 class="mb-0 fw-bold">$19</h1>
+                        <p class="mb-0 fs-5 fw-normal">per workstation</p>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE FEATURE SET</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">BACKUP</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Windows</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Linux</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">FLEXIBLE RECOVERY</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Instant granular recovery</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Instant P2V</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">ANTI-RANSOMWARE</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Immutable storage</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center">
+                        <span class="mb-0">start at</span>
+                        <h1 class="mb-0 fw-bold">$25</h1>
+                        <p class="mb-0 fs-5 fw-normal">per workstation</p>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">PRO ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">+ MORE BACKUP CAPABILITIES</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Backup to Cloud</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Native Backup to Tape</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Deduplication Appliance Integration</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">+ SITE RECOVERY</h5>
+                        <h5 class="features_header pb-2 pt-3">+ SIMPLIFIED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Policy-Based Data Protection</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Calendar</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Two-Factor Authentication</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Microsoft Active Directory Integration</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE PLUS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center py-4 mt-3">
+                        <h2 class="mb-0 fw-bold text-center">Full feature set to meet all your needs</h2>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 ENTERPRISE_ESSENTIALS_btn d-flex">
+                            <button class="btn text-center py-3 w-100">
+                              CONTACT SALES
+                            </button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">ENTERPRISE ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 pt-3">+ EXTENDED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>HTTP API Integration Kit</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Role-Based Access Control</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade Subscription-Workloads" id="pills-PERPETUAL-NAS" role="tabpanel" aria-labelledby="pills-PERPETUAL-NAS-tab">
+          <div>
+            <div class="d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-headset pe-2 fs-2" style="color: #0d79fa;"></i>
+              <p class="mb-0">Free 24/7 support included</p>
+            </div>
+            <div class="container px-4  mt-5">
+              <div class="row">
+                <div class="pricing_table col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">PRO ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body">
+                      <div class="d-flex flex-column align-items-center">
+                        <span class="mb-0">start at</span>
+                        <h1 class="mb-0 fw-bold">$149</h1>
+                        <p class="mb-0 fs-5 fw-normal">per TP</p>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE FEATURE SET</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">BACKUP</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>SMB shares</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>NFS shares</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Folders on shares</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">BACKUP COPY</h5>
+                        <h5 class="features_header pb-2 pt-3">INSTANT RECOVERY</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>File level recovery</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center">
+                        <span class="mb-0">start at</span>
+                        <h1 class="mb-0 fw-bold">$199</h1>
+                        <p class="mb-0 fs-5 fw-normal">per TP</p>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">PRO ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">+ MORE INTEGRATIONS</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Microsoft Active Directory Integration</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">+ SIMPLIFIED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Calendar</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Two-Factor Authentication</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">+ MULTI-TENANT DEPLOYMENT</h5>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE PLUS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center py-4 mt-3">
+                        <h2 class="mb-0 fw-bold text-center">Full feature set to meet all your needs</h2>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 ENTERPRISE_ESSENTIALS_btn d-flex">
+                            <button class="btn text-center py-3 w-100">
+                              CONTACT SALES
+                            </button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">ENTERPRISE ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 pt-3">+ EXTENDED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>HTTP API Integration Kit</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Role-Based Access Control</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade Subscription-Workloads" id="pills-PERPETUAL-Oracle" role="tabpanel" aria-labelledby="pills-PERPETUAL-Oracle-tab">
+          <div>
+            <div class="d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-headset pe-2 fs-2" style="color: #0d79fa;"></i>
+              <p class="mb-0">Free 24/7 support included</p>
+            </div>
+            <div class="container px-4  mt-5">
+              <div class="row">
+                <div class="pricing_table col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold text-muted">PRO ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body d-flex justify-content-center align-items-center text-center">
+                      <h3 class="text-muted text-center">Not available in Pro Essentials</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold text-muted">ENTERPRISE ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body d-flex justify-content-center align-items-center text-center">
+                      <h3 class="text-muted text-center">Not available in ENTERPRISE ESSENTIALS</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE PLUS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center">
+                        <h1 class="mb-0 fw-bold">$165</h1>
+                        <p class="mb-0 fs-5 fw-normal">Per database</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">ORACLE DATABASE BACKUP VIA RMAN</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Centralized management</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Advanced scheduling</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade Subscription-Workloads" id="pills-PERPETUAL-VMware" role="tabpanel" aria-labelledby="pills-PERPETUAL-VMware-tab">
+          <div>
+            <div class="d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-headset pe-2 fs-2" style="color: #0d79fa;"></i>
+              <p class="mb-0">Free 24/7 support included</p>
+            </div>
+            <div class="container px-4  mt-5">
+              <div class="row">
+                <div class="pricing_table col-12 col-lg-4">
+                  <div class="pricing_table_cont position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">PRO ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body">
+                      <div class="d-flex flex-column align-items-center">
+                        <span class="mb-0">start at</span>
+                        <h1 class="mb-0 fw-bold">$0.90</h1>
+                        <p class="mb-0 fs-5 fw-normal">Per workload / month</p>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 pricing_table_tabs d-flex">
+                            <button class="btn w-50 text-center py-1">
+                              1-year 
+                              <br>
+                              subscription
+                            </button>
+                            <button class="btn w-50 active text-center py-1">Save 20% with a <br> 3-years subscription</button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE FEATURE SET</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">PERFORMANCE MONITORING</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>CPU</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>RAM</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Disk usage</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">BUILT-IN LIVE CHAT</h5>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center">
+                        <span class="mb-0">start at</span>
+                        <h1 class="mb-0 fw-bold">$1.15</h1>
+                        <p class="mb-0 fs-5 fw-normal">Per workload / month</p>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 pricing_table_tabs d-flex">
+                            <button class="btn w-50 text-center py-1">
+                              1-year 
+                              <br>
+                              subscription
+                            </button>
+                            <button class="btn w-50 active text-center py-1">Save 20% with a <br> 3-years subscription</button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">PRO ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">+ SIMPLIFIED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Two-Factor Authentication</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Microsoft Active Directory Integration</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">+ MULTI-TENANT DEPLOYMENT</h5>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE PLUS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center py-4 mt-3">
+                        <h2 class="mb-0 fw-bold text-center">Full feature set to meet all your needs</h2>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 ENTERPRISE_ESSENTIALS_btn d-flex">
+                            <button class="btn text-center py-3 w-100">
+                              CONTACT SALES
+                            </button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">ENTERPRISE ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">+ EXTENDED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>HTTP API Integration Kit</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Role-Based Access Control</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade Subscription-Workloads" id="pills-PERPETUAL-Replication" role="tabpanel" aria-labelledby="pills-PERPETUAL-Replication-tab">
+          <div>
+            <div class="d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-headset pe-2 fs-2" style="color: #0d79fa;"></i>
+              <p class="mb-0">Free 24/7 support included</p>
+            </div>
+            <div class="container px-4  mt-5">
+              <div class="row">
+                <div class="pricing_table col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold text-muted">PRO ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body d-flex justify-content-center align-items-center text-center">
+                      <h3 class="text-muted text-center">Not available in Pro Essentials</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE ESSENTIALS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center">
+                        <span class="mb-0">start at</span>
+                        <h1 class="mb-0 fw-bold">$2.35</h1>
+                        <p class="mb-0 fs-5 fw-normal">Per workload / month</p>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 pricing_table_tabs d-flex">
+                            <button class="btn w-50 text-center py-1">
+                              1-year 
+                              <br>
+                              subscription
+                            </button>
+                            <button class="btn w-50 active text-center py-1">Save 20% with a <br> 3-years subscription</button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">PRO ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">REAL-TIME REPLICATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>VMware vSphere</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">SIMPLIFIED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Two-Factor Authentication</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Microsoft Active Directory Integration</li>
+                        </ul>
+                        <h5 class="features_header pb-2 pt-3">MULTI-TENANT DEPLOYMENT</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Multi-tenant mode</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing_table mt-3 mt-lg-0 col-12 col-lg-4">
+                  <div class="pricing_table_cont h-100 position-relative">
+                    <div class="pricing_table_header">
+                      <h5 class="mb-0 fw-bold">ENTERPRISE PLUS</h5>
+                    </div>
+                    <div class="pricing_table_body ">
+                      <div class="d-flex flex-column align-items-center py-4 mt-3">
+                        <h2 class="mb-0 fw-bold text-center">Full feature set to meet all your needs</h2>
+                      </div>
+                      <div class="mt-5 w-100">
+                        <div class="w-100 ENTERPRISE_ESSENTIALS_btn d-flex">
+                            <button class="btn text-center py-3 w-100">
+                              CONTACT SALES
+                            </button>
+                        </div>
+                      </div>
+                      <div class="mt-5">
+                        <p class="text-muted">CORE <span class="text-blue fw-semibold">ENTERPRISE ESSENTIALS</span> FEATUREs</p>
+                      </div>
+                      <div class="features mt-4">
+                        <h5 class="features_header pb-2 ">+ EXTENDED ADMINISTRATION</h5>
+                        <ul class="p-0 list-unstyled ">
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>HTTP API Integration Kit</li>
+                          <li class="text-muted "><i class="fa-solid fa-check pe-3" style="color: #000000; font-size: 13px;"></i>Role-Based Access Control</li>
+                        </ul>
+                      </div>
+                      <div class="see_all_features_btn">
+                        <a href="#features_table" class="text-blue fw-bold">SEE ALL FEATURES <i class="fa-solid fa-arrow-down ms-2" style="color: #026be9;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="features_table" class="mt-5 py-5">
+    <h1 class="text-center">Features Comparison Table</h1>
+    <div class="container">
+      <div class="features_table mt-3 py-2 px-4">
+        <div class="row p-2">
+          <div class="col-6 col-lg-5 p-2 px-3 bg-muted">
+            <div class="d-lg-flex d-block  align-items-center justify-content-between">
+              <div>
+                <p class="mb-1 mb-lg-0 text-center fw-semibold try_text">Try all features for 15 days</p>
+              </div>
+              <div class="d-flex justify-content-center d-lg-block">
+                <button class="btn try_btn  text-white fw-bold">
+                  TRY FOR FREE
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-7">
+            <div class="row h-100">
+              <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                <p class="mb-0 text-center">PRO ESSENTIALS</p>
+              </div>
+              <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                <p class="mb-0 text-center">ENTERPRISE ESSENTIALS</p>
+              </div>
+              <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                <p class="mb-0 text-center">ENTERPRISE PLUS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mt-4" id="accordionExample">
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed shadow-none text-black p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h5 class="mb-0">Deployment</h5>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body p-0">
+                <div class="features_table shadow-none  py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Install on Windows and Linux</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="features_table shadow-none py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Deploy as a VA or AWS AMI</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="features_table shadow-none py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Install on NAS</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="features_table shadow-none py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Install on Raspberry Pi</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="accordion mt-4" id="accordionExample2">
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header" id="headingtwo">
+              <button class="accordion-button collapsed shadow-none text-black p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                <h5 class="mb-0">Data protection</h5>
+              </button>
+            </h2>
+            <div id="collapsetwo" class="accordion-collapse collapse" aria-labelledby="headingtwo" data-bs-parent="#accordionExample2">
+              <div class="accordion-body p-0">
+                <div class="features_table shadow-none  py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">VMware Backup</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="features_table shadow-none py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Hyper-V Backup</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="features_table shadow-none py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Nutanix AHV Backup</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="features_table shadow-none py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Physical Backup</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="features_table shadow-none py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Amazon EC2 Backup</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="features_table shadow-none py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Backup for Microsoft 365 </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="inactive_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="inactive_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="inactive_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="features_table shadow-none py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">NAS Backup</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="accordion mt-4" id="accordionExample3">
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header" id="headingthree">
+              <button class="accordion-button collapsed shadow-none text-black p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="true" aria-controls="collapsethree">
+                <h5 class="mb-0">Data protection</h5>
+              </button>
+            </h2>
+            <div id="collapsethree" class="accordion-collapse collapse" aria-labelledby="headingthree" data-bs-parent="#accordionExample3">
+              <div class="accordion-body p-0">
+                <div class="features_table shadow-none  py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Full Recovery</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="features_table shadow-none py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Instant File Recovery</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="features_table shadow-none py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Instant VM Recovery (Flash VM Boot)</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="features_table shadow-none py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Instant Object Recovery for Microsoft Exchange</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="features_table shadow-none py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Instant Object Recovery for Microsoft Active Directory</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="features_table shadow-none py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Instant Object Recovery for Microsoft SQL </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="features_table shadow-none py-2 px-4">
+                  <div class="row p-2">
+                    <div class="col-6 col-lg-5 p-2 px-3">
+                      <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                        <div>
+                          <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Instant Physical-to-Virtual (P2V) Recovery</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-7">
+                      <div class="row h-100">
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                          <div class="active_circle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="accordion mt-4" id="accordionExample4">
+        <div class="accordion-item border-0">
+          <h2 class="accordion-header" id="headingfour">
+            <button class="accordion-button collapsed shadow-none text-black p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
+              <h5 class="mb-0">Disaster Recovery</h5>
+            </button>
+          </h2>
+          <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample4">
+            <div class="accordion-body p-0">
+              <div class="features_table shadow-none  py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">VMware Backup</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features_table shadow-none py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Hyper-V Backup</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features_table shadow-none py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Nutanix AHV Backup</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features_table shadow-none py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Physical Backup</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features_table shadow-none py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Amazon EC2 Backup</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features_table shadow-none py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Backup for Microsoft 365 </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="inactive_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="inactive_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="inactive_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features_table shadow-none py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">NAS Backup</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mt-4" id="accordionExample5">
+        <div class="accordion-item border-0">
+          <h2 class="accordion-header" id="headingfive">
+            <button class="accordion-button collapsed shadow-none text-black p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+              <h5 class="mb-0">Performance</h5>
+            </button>
+          </h2>
+          <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample5">
+            <div class="accordion-body p-0">
+              <div class="features_table shadow-none  py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Install on Windows and Linux</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features_table shadow-none py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Deploy as a VA or AWS AMI</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features_table shadow-none py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Install on NAS</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features_table shadow-none py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Install on Raspberry Pi</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mt-4" id="accordionExample6">
+        <div class="accordion-item border-0">
+          <h2 class="accordion-header" id="headingsix">
+            <button class="accordion-button collapsed shadow-none text-black p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="true" aria-controls="collapsesix">
+              <h5 class="mb-0">Administration</h5>
+            </button>
+          </h2>
+          <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample6">
+            <div class="accordion-body p-0">
+              <div class="features_table shadow-none  py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Full Recovery</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features_table shadow-none py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Instant File Recovery</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features_table shadow-none py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Instant VM Recovery (Flash VM Boot)</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features_table shadow-none py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Instant Object Recovery for Microsoft Exchange</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features_table shadow-none py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Instant Object Recovery for Microsoft Active Directory</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features_table shadow-none py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Instant Object Recovery for Microsoft SQL </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features_table shadow-none py-2 px-4">
+                <div class="row p-2">
+                  <div class="col-6 col-lg-5 p-2 px-3">
+                    <div class="d-lg-flex d-block  align-items-center justify-content-between">
+                      <div>
+                        <a class="mb-1 mb-lg-0 text-center fw-normal try_text">Instant Physical-to-Virtual (P2V) Recovery</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-7">
+                    <div class="row h-100">
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features ">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-center align-items-center sub_type_features">
+                        <div class="active_circle"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="assets/js/all.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
